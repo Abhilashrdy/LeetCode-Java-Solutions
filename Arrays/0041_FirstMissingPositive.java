@@ -1,5 +1,6 @@
 class Solution {
     public int firstMissingPositive(int[] nums) {
+        
         int i = 0;
         while(i < nums.length){
             int correct = nums[i]-1;
