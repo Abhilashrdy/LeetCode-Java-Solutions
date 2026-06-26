@@ -12,5 +12,6 @@ class Solution {
             else sum += num;
         }
         return Math.max(max,sum);
+        
     }
 }
