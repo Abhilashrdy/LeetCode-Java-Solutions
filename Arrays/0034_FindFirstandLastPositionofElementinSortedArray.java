@@ -4,6 +4,7 @@ class Solution {
         arr[0] = binarySearch(nums,target,0,nums.length-1,true);
         arr[1] = binarySearch(nums,target,0,nums.length-1,false);
         return arr;
+        
     }
     int binarySearch(int[] nums, int target , int start , int end , boolean first){
         int str = -1;
