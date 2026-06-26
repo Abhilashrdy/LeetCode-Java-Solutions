@@ -6,5 +6,6 @@ class Solution {
         for(int i = 0; i < r * c; i++)
             result[i / c][i % c] = mat[i / mat[0].length][i % mat[0].length];
         return result;
+        
     }
 }
